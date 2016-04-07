@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <br>
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <h2>What is this?</h2>
+                    <hr class="star-light">
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Check on your dear ones. It's always better to be safe than sorry :) </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Easily track real-time location statuses of your friends for planning fun meet-ups or just to
+                        make
+                        sure they reached home safely.</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="{% url 'register' %}" class="btn btn-lg btn-outline">
+                        Sign Up Now
+                    </a>
+                </div>
+                <br></br>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+
+        </div>
+
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+{% endblock %}

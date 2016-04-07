@@ -1,0 +1,36 @@
+
+
+input[type=file]{
+  position: absolute;
+  top:0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0 ; 
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+
+}
+
+.hear{
+  font-size:21px;
+  font-weight:700;
+  line-height:1;
+  color:#000;
+  text-shadow:0 1px 0 #fff;
+  filter:alpha(opacity=20);
+  opacity:.2
+}
+
+button.hear{
+  -webkit-appearance:none;
+  padding:0;
+  cursor:pointer;
+  background:0 0;
+  border:0
+}
